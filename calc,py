@@ -17,7 +17,7 @@ while True:
 
     print("The answer is: ", result)   
 
-    ans = input("Are you done? y/n: ")
+    ans = input("Are you done? y for yes/n: ")
     if (ans == "y"):
         print("Goodbye!")
         break
