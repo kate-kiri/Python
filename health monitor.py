@@ -1,8 +1,10 @@
 print("\nHEALTH MONITORING SYSTEM\n" 
-  "Where your weight , height, BMI, Temperature are valued.")
+  "Where your weight , height, BMI, Temperature is valued.")
 
 while True:
     name = input("Please fill your name: ")
+    print("\nWEIGHT CONVERTER\n")
+    
     old_weight = float(input("Enter your weight: "))
     unit = input("Is weight in lbs or kgs): ")
     if unit == "lbs":
@@ -20,6 +22,8 @@ while True:
         print(f"{unit} invalid!")
 
       #Height Conversion
+
+    print("\nHEIGHT CONVERSION\n")
 
     height = float(input("My height: "))
     height_unit = input("Height in cm or feet(Cm / F): ")
@@ -40,6 +44,8 @@ while True:
         print(f"{height_unit} invalid!")
 
          #BMI CALCULATION
+
+    print("\nBMI CALCULATOR\n")
 
     bmi = round((bmi_weight) / pow(bmi_height , 2) , 2)
     
